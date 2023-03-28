@@ -3,9 +3,9 @@ import { View, Text,Platform,ScrollView,TouchableOpacity } from 'react-native';
 import RtcEngine,{RtcLocalView,RtcRemoteView,VideoRenderMode,ClientRole,ChannelProfile} from 'react-native-agora';
 import requestCameraAndAudioPermission from './components/Permission';
 import styles from './components/Styles';
-const token="006ad62bdbcdede44308f3f5c9ebae6e962IACLMolcOl4WQsbj+VhGN5pNLR3vLQh3IJMhmuoboVobAwJkFYoAAAAAEAAJmhJvb/lGYgEAAQBv+UZi";
-const appId="ad62bdbcdede44308f3f5c9ebae6e962";
-const channelName='channel-x';
+const token="007eJxTYHDVW1LPcyRNTcqi+ARTY9dWec3yo5+skr7n/vxr03Q3rlqBIS012djQMMkoydDU0sTMOCkp0SgpxdTU3DQlxdQgySL10i+llIZARgYL6fcMjFAI4nMwOBaXFOU7FhQwMAAAn5Eg5A==";
+const appId="fec311b2b159463bba2bd5575dd50b8e";
+const channelName='AstroApp';
 
 export default class App extends Component {
   _engine;
